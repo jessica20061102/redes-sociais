@@ -2,7 +2,7 @@ const url ='https://raw.githubusercontent.com/guilhermeonrails/api/main/dados-gl
 async function vizualizarinformacoesGlobais(){
     const res = await fetch(url)
     const dados = await res.json()
-    console.log(dados);~
+    console.log(dados);
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-Container_texto')
 }
