@@ -3,8 +3,6 @@ async function quatidadeUsuarios() {
 
 const res = await fetch(url)
 const dados = awaitres.json()
-
-console.log(dados)
 const nomeDasRedes = Object.keys(dados)
 const quantidadeUuarios = Object.values(dados)
 
